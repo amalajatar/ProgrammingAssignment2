@@ -32,7 +32,7 @@ cacheSolve <- function(x, ...)    # x is output of makeCacheMatrix()
   
   if (!is.null(inv))            # check if the inverse has already been calculated
   {
-    message("getting cached data")         # pick it from the cache and dont calculate again
+    message("Getting data from the cache")         # pick it from the cache and dont calculate again
     return(inv)
   }
   
